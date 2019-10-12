@@ -29,5 +29,6 @@ require('./app/routing/htmlRoutes.js')(app);
 app.listen(PORT, function () {
     console.log('Express Server istening on PORT ' + PORT);
 });
-app.listen(process.env.PORT || 4000);
+
+
 
